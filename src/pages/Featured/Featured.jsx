@@ -1,10 +1,10 @@
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import featuredImg from '../../assets/home/featured.jpg'
-import bgImg from '../../assets/home/featured.jpg'
+// import bgImg from '../../assets/home/featured.jpg'
 
 function Featured() {
     return (
-        <div className='my-20 bg-[url("/src/assets/home/featured.jpg")] bg-no-repeat bg-cover bg-blend-overlay bg-black/60 h-[600px] flex flex-col justify-center items-center text-white'>
+        <div className='my-20 bg-[url("/src/assets/home/featured.jpg")] bg-no-repeat bg-cover bg-blend-overlay bg-black/60 h-[600px] flex flex-col justify-center items-center text-white bg-fixed'>
 
             <SectionTitle heading={"Check It Out"} subHeading={"From Our Menu"}></SectionTitle>
 
