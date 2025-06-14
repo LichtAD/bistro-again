@@ -1,6 +1,6 @@
 import { Rating } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'
-import quote from "../../assets/icon/quote.png"
+import quote from "../../../assets/icon/quote.png"
 
 function SingleReview({ review }) {
 

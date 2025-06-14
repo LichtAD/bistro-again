@@ -1,4 +1,4 @@
-import SectionTitle from "../../components/SectionTitle/SectionTitle"
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Navigation } from 'swiper/modules';
 import { useEffect, useState } from "react";
-import SingleReview from "./SingleReview";
+import SingleReview from "../../Home/Testimonials/SingleReview";
 
 function Testimonials() {
 
